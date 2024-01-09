@@ -1,0 +1,63 @@
+#review {
+  /* display: flex; */
+  padding: 60px;
+}
+.review__page {
+  display: flex;
+}
+.review_card {
+  padding: 60px;
+  gap: 20px;
+}
+.cards {
+  display: flex;
+}
+.one {
+  max-width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+  color: rgb(21, 89, 134);
+}
+.review__sub {
+  width: 100%;
+}
+.review__sub P {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.review__sub h1 {
+  font-size: 70px;
+  padding-bottom: 10px;
+  color: rgb(12, 59, 90);
+}
+.review__sub a {
+  font-size: large;
+  color: rgb(219, 98, 68);
+}
+#reviews {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  display: flex;
+  border-radius: 100px;
+  border-style: none;
+  align-items: center;
+  color: rgb(12, 59, 90);
+  gap: 5px;
+}
+.img__style {
+  align-items: center;
+  padding-top: 85px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img__style img {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+
+}

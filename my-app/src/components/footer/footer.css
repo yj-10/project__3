@@ -1,0 +1,78 @@
+.foot {
+  background-color: #f5f9fc;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  height: 70vh;
+}
+.foot__one h1,
+h3 {
+  color: #0e2431;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.email__input {
+  padding-bottom: 20px;
+}
+.email__input input {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  max-width: 100%;
+  width: 50%;
+  border-style: 0.5rem groove;
+}
+#us {
+  width: 100%;
+  text-align: left;
+  border-radius: 100px;
+  display: flex;
+  gap: 10px;
+  width: 400px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-style: 0.5rem groove;
+}
+.fuut__img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fuut__img p {
+  color: #0e2431;
+  font-weight: 800;
+  width: 100%;
+}
+button img {
+  width: 35px;
+  max-width: 100%;
+}
+.footer__icon {
+  margin-top: 20px;
+  margin-bottom: 30%;
+}
+.footer__icon a {
+  color: rgb(124, 124, 124);
+  font-size: 30px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+.footer__icon a:hover {
+  color: #0e2431;
+  font-size: 30px;
+}
+.foot__three img {
+  width: 100%;
+}
+.foot__two a{
+  text-decoration: none;
+  color: #0e2431;
+}
+.foot__two {
+  text-align: center;
+  text-transform: capitalize;
+  border-color: #e0e0e0;
+}
